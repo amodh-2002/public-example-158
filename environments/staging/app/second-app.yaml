@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    RepoURL: https://github.com/amodh-2002/public-example-158.git
+    repoURL: https://github.com/amodh-2002/public-example-158.git
     targetRevision: HEAD
     path: environments/staging/second-app
   destination:
