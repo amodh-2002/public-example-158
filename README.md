@@ -14,3 +14,9 @@ docker push howaboutwepullsomeimages/nginx:v0.1.0
 git add .
 git commit -m "deploy nginx"
 git push
+
+
+docker tag nginx:1.29.3 
+howaboutwepullsomeimages/nginx:v0.1.1
+
+docker push howaboutwepullsomeimages/nginx:v0.1.1
